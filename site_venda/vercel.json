@@ -2,11 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/site_venda/index.html"
-    },
-    {
-      "source": "/site_venda/(.*)",
-      "destination": "/site_venda/$1"
+      "destination": "index.html"
     },
     {
       "source": "/adm",
