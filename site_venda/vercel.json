@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/site_venda/index.html"
+    },
+    {
+      "source": "/site_venda/(.*)",
+      "destination": "/site_venda/$1"
+    },
+    {
+      "source": "/adm",
+      "destination": "/adm/index.html"
+    },
+    {
+      "source": "/adm/(.*)",
+      "destination": "/adm/$1"
+    },
+    {
+      "source": "/pesquisa",
+      "destination": "/pesquisa/pesquisa.html"
+    },
+    {
+      "source": "/pesquisa/(.*)",
+      "destination": "/pesquisa/$1"
+    }
+  ]
+}
